@@ -1,0 +1,19 @@
+@use 'vars';
+
+.navbarcont{
+    border: vars.$lbord;
+    display: flex;
+    justify-content: space-between;
+    @include vars.styling;
+    padding: 0px 20px 0px 20px;
+    .rightnav{
+        display: flex;
+        *{
+            padding-right: 40px;
+        }
+        .searchcont{
+            align-self: center;
+            border: vars.$sbord;
+        }
+    }
+}

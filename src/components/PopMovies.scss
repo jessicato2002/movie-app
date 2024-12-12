@@ -1,0 +1,5 @@
+@use 'vars';
+
+.popmoviescont{
+    @include vars.styling;
+}

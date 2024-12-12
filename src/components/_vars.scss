@@ -1,0 +1,7 @@
+$sbord: 1px solid white;
+$lbord: 3px solid red;
+@mixin styling{
+    background-color: black;
+    color: white;
+    border: $lbord;
+}
